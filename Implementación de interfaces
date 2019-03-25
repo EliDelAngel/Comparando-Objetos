@@ -1,0 +1,38 @@
+public interface interface_1 extends /* implements */ Class1{
+/* la clase abstracta que se quiere heredar a la interfaz .
+se usa implements cuando se  impelementa una interfaz en una clase , y extends cuando se quiere
+heredar de clase a clase o de interfaz a interfaz.
+No encontre como es se puede heredar de una clase a una interfaz 
+*/
+    
+}
+
+public interface Interface1_2 extends interface_1 {
+    
+}
+
+
+public interface interface2_1 {
+    
+}
+
+public interface interface22_1  {
+    
+}
+
+
+public class Object extends  Class1 {
+    
+}
+
+public  abstract class Class1 extends Class2 {
+    
+}
+
+public class Class2 implements interface2_1,interface22_1 {
+    
+}
+
+public interface Interface1_1 extends interface_1{
+    
+}
